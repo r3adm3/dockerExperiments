@@ -1,9 +1,0 @@
-total 0
-drwxr-xr-x   8 daed  staff  256 31 Jan 15:05 .
-drwxr-xr-x   6 daed  staff  192 31 Jan 14:25 ..
-drwxr-xr-x  14 daed  staff  448 31 Jan 14:57 .git
-drwxr-xr-x   4 daed  staff  128 31 Jan 14:25 lecture2-21.Manage.Multiple.Containers
-drwxr-xr-x   3 daed  staff   96 31 Jan 14:25 lecture2-28.CLI.App.Testing
-drwxr-xr-x   4 daed  staff  128 31 Jan 14:25 lecture2-30.DNS.Round.Robin.Test
-drwxr-xr-x   4 daed  staff  128 31 Jan 14:53 lecture3-40.Build.Your.Own.DockerFile.and.Run.Containers
--rw-r--r--   1 daed  staff    0 31 Jan 15:05 noob.txt
