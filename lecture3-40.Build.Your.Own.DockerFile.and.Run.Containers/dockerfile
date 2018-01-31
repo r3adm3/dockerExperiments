@@ -1,4 +1,10 @@
 FROM node:6-alpine
 
+MAINTAINER Adrian Farnell "adrianjfarnell@gmail.com"
+
 ENV TESTVAR=doodad
+
+RUN npm install
+
+
 
