@@ -1,0 +1,8 @@
+#builds the docker image from dockerfile
+docker image build -t mynode .
+
+#runs a container from the image just built, starts an interactive bash
+docker container run -it --rm --name node2 mynode bash
+
+#runs the container with the port forward and can run the server properly
+docker container run -it --rm -p 80:3000 --name node2 mynode 

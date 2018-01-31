@@ -5,11 +5,15 @@ MAINTAINER Adrian Farnell "adrianjfarnell@gmail.com"
 ENV TESTVAR=doodad
 
 RUN apk add --update tini
+
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
+COPY ./ ./
 COPY package.json package.json
 RUN npm install
 RUN npm cache clean --force
+
+EXPOSE 80
 
 CMD ["tini", "--","node", "./bin/www"]
 
