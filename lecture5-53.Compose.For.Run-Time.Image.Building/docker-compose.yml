@@ -20,7 +20,7 @@ services:
     restart: always
     # this makes the data persist over docker compose runs
     volumes: 
-      drupal-data: /var/lib/postgresql/data
+      - drupal-data:/var/lib/postgresql/data
 
 volumes:
   drupal-data:
