@@ -18,8 +18,12 @@ services:
     environment: 
       POSTGRES_PASSWORD: example
     restart: always
+    # this makes the data persist over docker compose runs
+    volumes: 
+      drupal-data: /var/lib/postgresql/data
 
 volumes:
+  drupal-data:
   drupal-modules:
   drupal-profiles:
   drupal-sites:
