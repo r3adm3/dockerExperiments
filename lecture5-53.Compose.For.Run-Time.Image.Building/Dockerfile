@@ -1,7 +1,7 @@
 FROM drupal:8.2
 
 RUN apt-get update && apt-get install -y git
-RUN rm -rg /var/lib/apt/lists/*
+RUN rm -r /var/lib/apt/lists/*
 
 WORKDIR /var/www/html/themes
 
